@@ -9,16 +9,14 @@ public class Main {
         double sum = 0;
         int counter = -1;
         while (Check_Flag) {
-            int input_digit = sc.nextInt();
+            double input_digit = sc.nextDouble();
             if (input_digit == 0) {
                 Check_Flag = false;
             }
             sum += input_digit;
             counter += 1;
         }
-        System.out.print(counter+" ");
-        System.out.print(sum+" ");
-        System.out.print(Math.floor((sum/counter)*10)/10);
+        System.out.print(counter + " " + sum + " " +Math.floor((sum/counter)*10)/10);
 
     }
 }
