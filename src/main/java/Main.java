@@ -16,7 +16,7 @@ public class Main {
             sum += input_digit;
             counter += 1;
         }
-        System.out.print(counter + " " + sum + " " +Math.floor((sum/counter)*10)/10);
+        System.out.print(counter + " " + Math.floor(sum*10/10) + " " +Math.floor((sum/counter)*10)/10);
 
     }
 }
